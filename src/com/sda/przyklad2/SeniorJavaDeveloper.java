@@ -2,25 +2,24 @@ package com.sda.przyklad2;
 
 public class SeniorJavaDeveloper extends JavaDeveloper{
 
-    private int yearsofexperience;
+    private int yearsOfExperience;
 
     public SeniorJavaDeveloper(String name, String surname, int age, int salary, String[] knownTechnologies, int yearsofexperience) {
         super(name, surname, age, salary, knownTechnologies);
-        this.yearsofexperience = yearsofexperience;
+        this.yearsOfExperience = yearsofexperience;
     }
 
-    public int getYearsofexperience() {
-        return yearsofexperience;
+    public int getYearsOfExperience() {
+        return yearsOfExperience;
     }
 
-    public void setYearsofexperience(int yearsofexperience) {
-        this.yearsofexperience = yearsofexperience;
+    public void setYearsOfExperience(int yearsOfExperience) {
+        this.yearsOfExperience = yearsOfExperience;
     }
 
     @Override
     public void describe() {
         System.out.println("Jestem Senior Java Developerem, nazywam się " + getName() + " "
-                + getSurname() + " i mam " + getAge()
-                + " i zarabiam " + getSalary() + " pracuję w zawodzie już " + getYearsofexperience());
+                + getSurname() + " pracuję w zawodzie już " + getYearsOfExperience());
     }
 }

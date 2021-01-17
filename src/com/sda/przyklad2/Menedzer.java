@@ -17,6 +17,7 @@ public class Menedzer extends Employee {
         this.employees = employees;
     }
 
+
     @Override
     public void describe() {
         System.out.println("Jestem Menedzerem nazywam się " + getName() + " "
